@@ -32,7 +32,7 @@ function getMealList(){
             });
             mealList.classList.remove('notFound')
         } else{
-            html = `Sorry we couldn't find the meal probably because i'm using a free api!`
+            html = `Sorry we couldn't find the meal probably because Lance is using a free api!`
             mealList.classList.add('notFound')
         }
 
